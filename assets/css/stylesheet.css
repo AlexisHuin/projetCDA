@@ -1,0 +1,87 @@
+* {
+  padding: auto;
+  margin: auto;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  flex: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav_lien {
+  justify-content: space-around;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+    border: 1px solid black;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.ban {
+    
+    background-color: yellow;
+    height:13em;
+    background-image: url('../img/legume.jpeg');
+    background-attachment: fixed;
+    color: white;
+    margin-bottom: 2em;
+   
+}
+
+.ban_content {
+    padding: 2em 0 0 2em;
+}
+
+section {
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px black;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+.article {
+  
+    justify-content: center;
+    padding:2em;
+    
+}
+
+.article_title {
+  padding-bottom: 2em;
+}
+
+.article_img {
+    width: 10%;
+    padding:2em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.saison {
+  display: flex;
+}
