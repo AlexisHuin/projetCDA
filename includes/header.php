@@ -12,6 +12,7 @@
     <header>
         <div class="logo"><a href="/Testing/ProjetCDARentrée/"><img src="./assets/img/logo.png" alt="logo coopérative"></a></div>
         <nav>
+        <a class="nav_lien" href="/Testing/ProjetCDARentrée/addtypeproduct.php">Ajout type de produit</a>
             <a class="nav_lien" href="/Testing/ProjetCDARentrée/season.php">Saison</a>
             <a class="nav_lien" href="/Testing/ProjetCDARentrée/product.php">Produit</a>
             <a class="nav_lien" href="/Testing/ProjetCDARentrée/producteur.php">Producteur</a>
