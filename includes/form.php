@@ -1,6 +1,6 @@
 <form action="traitement.php" method="POST" >
-    <label for="nom">Nom du type de produit</label>
-    <input type="text" id="nom" name="nom" required>
+    <label class="search" for="nom">Nom du type de produit</label>
+    <input class="search" type="text" id="nom" name="nom" required>
 
-    <input type="submit" name="submit" value="Envoyer">
+    <input class="search" type="submit" name="submit" value="Envoyer">
 </form>
