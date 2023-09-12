@@ -10,7 +10,8 @@
 
 <body>
     <header>
-        <div class="logo"><a href="/Testing/ProjetCDARentrée/"><img src="./assets/img/logo.png" alt="logo coopérative"></a></div>
+        <div class="logo"><a href="/Testing/ProjetCDARentrée/"><img src="./assets/img/logo.png" alt="logo coopérative"><p class="accueil">Accueil</p></a>
+     </div>
         <nav>
         <div class="menu">
             <div class="menu-button">Ajouter</div>

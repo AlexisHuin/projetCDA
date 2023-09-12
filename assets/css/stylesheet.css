@@ -3,111 +3,106 @@
   margin: auto;
 }
 
-
-
-
 .logo {
   flex: 1;
 }
 
+.accueil {
+  background-color: white;
+  color: #8e1558;
+}
 nav {
   display: flex;
   flex: 2;
 }
 
-  /* Style de base pour le menu */
-  .menu {
-    position: relative;
-    display: inline-block;
+/* Style de base pour le menu */
+.menu {
+  position: relative;
+  display: inline-block;
 }
 
 /* Style du bouton du menu */
 .menu-button {
-    
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 /* Style des éléments du menu */
 .menu-options {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 /* Style des éléments du menu */
 .menu-options a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Changement de couleur au survol de la souris */
 .menu-options a:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 /* Affichage des options du menu lorsqu'il est survolé */
 .menu:hover .menu-options {
-    display: block;
+  display: block;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 .nav_lien {
   justify-content: space-around;
   text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 header {
-    border: 1px solid black;
+  border: 1px solid black;
   background-color: lightgreen;
   display: flex;
   justify-content: space-between;
- 
 }
 
 .ban {
-    display: flex;
-    background-color: yellow;
-    height:13em;
-    background-image: url('../img/legume.jpeg');
-    background-attachment: fixed;
-    color: white;
-    margin-bottom: 2em;
-   
+  display: flex;
+  background-color: yellow;
+  height: 13em;
+  background-image: url("../img/legume.jpeg");
+  background-attachment: fixed;
+  color: white;
+  margin-bottom: 2em;
 }
 
 .ban_content {
-    padding: 2em 0 0 2em;
+  padding: 2em 0 0 2em;
 }
 
-.search, .search_button {
+.search,
+.search_button {
   padding: 1em;
 }
 section {
-    display: flex;
-    margin: 0 auto;
-    box-shadow: 0px 0px 20px black;
-    width: 40%;
-    text-align: center;
-    border-radius: 10px;
-   
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px black;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .article {
-  
-    justify-content: center;
-    padding:2em;
-    
+  justify-content: center;
+  padding: 2em;
 }
 
 .article_title {
@@ -115,19 +110,19 @@ section {
 }
 
 .article_img {
-    width: 10%;
-    padding:2em;
+  width: 10%;
+  padding: 2em;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 0 1em 0;
-    border-top: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 0 1em 0;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
 }
 
 .saison {
