@@ -91,7 +91,8 @@ header {
 }
 
 .search,
-.search_button {
+.search_button,
+.search_input {
   padding: 1em;
 }
 section {
@@ -139,4 +140,9 @@ footer {
 .validation_bdd {
   font-size:1em;
   padding: 2em 0 0 1em;
+}
+
+.search_input {
+  margin-top: 1em;
+  border-radius: 1em;
 }

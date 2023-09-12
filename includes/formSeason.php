@@ -5,7 +5,7 @@
     <input class="search" type="date" name="date-début" required>
     <label class="search" for="date-fin">Date de fin de saison</label>
     <input class="search" type="date"  name="date-fin" required>
-    <input class="search" type="submit" name="submit" value="Envoyer">
+    <input class="search_input" type="submit" name="submit" value="Envoyer">
 </form>
 
 <?php

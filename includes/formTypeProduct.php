@@ -2,7 +2,7 @@
     <label class="search" for="nom">Ajouter un type de produit</label>
     <input class="search" type="text" id="nom" name="nom" required>
 
-    <input class="search" type="submit" name="submit" value="Envoyer">
+    <input class="search_input" type="submit" name="submit" value="Envoyer">
 </form>
 
 <?php

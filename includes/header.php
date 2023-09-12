@@ -19,6 +19,7 @@
                 <a href="/Testing/ProjetCDARentree/addTypeProduct.php">Type de produit</a>
                 <a href="/Testing/ProjetCDARentree/addProduct">Produit</a>
                 <a href="/Testing/ProjetCDARentree/addSeason">Saison</a>
+                <a href="/Testing/ProjetCDARentree/addProductor">Producteur</a>
             </div>
         </div>
         <a class="nav_lien" href="/Testing/ProjetCDARentree/producttype.php">Type de produit</a>

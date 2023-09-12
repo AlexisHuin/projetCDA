@@ -3,7 +3,7 @@
     <input class="search" type="text" name="nom" required>
     <label class="search" for="prix">Prix unitaire</label>
     <input class="search" step="0.01" type="number" name="prix" required>
-    <input class="search" type="submit" name="submit" value="Envoyer">
+    <input class="search_input" type="submit" name="submit" value="Envoyer">
 </form>
 
 <?php

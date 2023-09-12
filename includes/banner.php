@@ -9,6 +9,6 @@
         
     <form method="POST" action="#">
         <input class="search" type="text" name="search" placeholder="Entrez un mot-clé">
-        <button class="search_button" type="submit">Rechercher</button>
+        <button class="search_input" type="submit">Rechercher</button>
     </form>
     </div>
