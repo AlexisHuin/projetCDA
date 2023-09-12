@@ -1,5 +1,5 @@
 <section>
-    <div class="article">
+    <div id="article "class="article">
         <h2 class="article_title"><?php echo $titreArticle ?></h2>
         
         

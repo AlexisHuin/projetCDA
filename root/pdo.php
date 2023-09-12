@@ -16,7 +16,7 @@ $dsn = "mysql:dbname=" .DBNAME.";host=".DBHOST;
 try{$db = new PDO($dsn, DBUSER, DBPASS);
     $db->exec("SET NAMES utf8");
     $db->setAttribute(PDO:: ATTR_DEFAULT_FETCH_MODE, PDO:: FETCH_ASSOC);
-    echo "Connexion à la base de données réussie.";
+    
 }
 
 //je gére les erreurs
