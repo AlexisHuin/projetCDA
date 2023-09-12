@@ -5,7 +5,7 @@ include './includes/header.php';
 include './includes/banner.php';
 
 
-$titreArticle = "Aficher type de produit";
+$titreArticle = "Afficher type de produit";
 
 // Création du formulaire pour afficher les types de produits
 
@@ -27,7 +27,7 @@ if (isset($_GET['afficher'])) {
          // Si la requête s'exécute avec succès, afficher la liste des types de produits
         echo "<ul>";
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo "<li>" . $row['DTYPRO'] . "</li>";
+        echo "<li>" . $row['DTYPRO'] . "</li> <br>";
         
         }
         echo "</ul>";

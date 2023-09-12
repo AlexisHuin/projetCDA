@@ -1,5 +1,11 @@
-<?php 
-// je lie mon fichier PDO ( Connexion a la BDD)
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST" >
+    <label class="search" for="nom">Ajouter un type de produit</label>
+    <input class="search" type="text" id="nom" name="nom" required>
+
+    <input class="search" type="submit" name="submit" value="Envoyer">
+</form>
+
+<?php
 require_once "./root/pdo.php";
 
 // je récupére les données envoyer depuis ma page de formulaire
@@ -28,12 +34,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute();
 
         // j'affiche un message visuel de confirmation
-        echo "Données insérées avec succès dans la base de données.";
+        echo '<p class="validation_bdd"> Données insérées avec succès dans la base de données.</p>'; 
     } 
      // j'affiche si il y eu une erreur 
     catch (PDOException $e) {
         die("Erreur lors de l'insertion des données : " . $e->getMessage());
     }
 }
-echo "<a href='/Testing/ProjetCDARentree/'>Accueil</a>"
+
 ?>

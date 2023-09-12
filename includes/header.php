@@ -16,9 +16,9 @@
         <div class="menu">
             <div class="menu-button">Ajouter</div>
             <div class="menu-options">
-                <a href="/Testing/ProjetCDARentree/addtypeproduct.php">Type de produit</a>
-                <a href="/Testing/ProjetCDARentree/addproduct">Produit</a>
-                <a href="/Testing/ProjetCDARentree/addseason">Saison</a>
+                <a href="/Testing/ProjetCDARentree/addTypeProduct.php">Type de produit</a>
+                <a href="/Testing/ProjetCDARentree/addProduct">Produit</a>
+                <a href="/Testing/ProjetCDARentree/addSeason">Saison</a>
             </div>
         </div>
         <a class="nav_lien" href="/Testing/ProjetCDARentree/producttype.php">Type de produit</a>

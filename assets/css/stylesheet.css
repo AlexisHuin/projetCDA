@@ -103,6 +103,10 @@ section {
   border-radius: 10px;
 }
 
+form {
+  display: grid;
+}
+
 .article {
   justify-content: center;
   padding: 2em;
@@ -130,4 +134,9 @@ footer {
 
 .saison {
   display: flex;
+}
+
+.validation_bdd {
+  font-size:1em;
+  padding: 2em 0 0 1em;
 }
