@@ -10,20 +10,20 @@
 
 <body>
     <header>
-        <div class="logo"><a href="/Testing/ProjetCDARentrée/"><img src="./assets/img/logo.png" alt="logo coopérative"><p class="accueil">Accueil</p></a>
+        <div class="logo"><a class="accueil_a" href="/Testing/ProjetCDARentree/"><img src="./assets/img/logo.png" alt="logo coopérative"><p class="accueil">Accueil</p></a>
      </div>
         <nav>
         <div class="menu">
             <div class="menu-button">Ajouter</div>
             <div class="menu-options">
-                <a href="/Testing/ProjetCDARentrée/addtypeproduct.php">Type de produit</a>
-                <a href="/Testing/ProjetCDARentrée/addproduct">Produit</a>
-                <a href="/Testing/ProjetCDARentrée/addseason">Saison</a>
+                <a href="/Testing/ProjetCDARentree/addtypeproduct.php">Type de produit</a>
+                <a href="/Testing/ProjetCDARentree/addproduct">Produit</a>
+                <a href="/Testing/ProjetCDARentree/addseason">Saison</a>
             </div>
         </div>
-            <a class="nav_lien" href="/Testing/ProjetCDARentrée/season.php">Saison</a>
-            <a class="nav_lien" href="/Testing/ProjetCDARentrée/product.php">Produit</a>
-            <a class="nav_lien" href="/Testing/ProjetCDARentrée/producteur.php">Producteur</a>
-            <a class="nav_lien" href="/Testing/ProjetCDARentrée/about.php">A propos</a>
+            <a class="nav_lien" href="/Testing/ProjetCDARentree/season.php">Saison</a>
+            <a class="nav_lien" href="/Testing/ProjetCDARentree/product.php">Produit</a>
+            <a class="nav_lien" href="/Testing/ProjetCDARentree/producteur.php">Producteur</a>
+            <a class="nav_lien" href="/Testing/ProjetCDARentree/about.php">A propos</a>
         </nav>
     </header>

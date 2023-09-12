@@ -8,9 +8,12 @@
 }
 
 .accueil {
-  background-color: white;
+  text-decoration: none;
+  padding-left: 1em;
   color: #8e1558;
+  font-weight: bold;
 }
+
 nav {
   display: flex;
   flex: 2;
@@ -62,7 +65,7 @@ nav {
   justify-content: space-around;
   text-decoration: none;
   font-weight: bold;
-  text-decoration: none;
+  
   color: white;
 }
 
