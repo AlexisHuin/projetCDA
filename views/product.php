@@ -47,3 +47,4 @@ if (isset($_GET['afficher'])) {
 include '../includes/section.php';
 
 include '../includes/footer.php';
+
