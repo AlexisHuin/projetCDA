@@ -1,3 +1,4 @@
+<script src="../app.js"></script>
 <?php
 require_once "../root/pdo.php";
 
@@ -29,7 +30,8 @@ if (isset($_GET['afficher'])) {
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
         echo '<div class="result_item"> <li> Produit : </li> <br>';
         echo '<li> Nom : ' . $row['DPRODU'] . "</li>";
-        echo "<li> Prix :  " . $row['PUVEN'] . "  </li> </div> <br>";
+        echo "<li> Prix :  " . $row['PUVEN'] . "  </li><br>";
+        echo '<li><button class="upload_submit" onclick="addFormUpload()">Modifier</button> </li> </div> <br>';
         
         }
         echo "</ul>";
@@ -38,6 +40,10 @@ if (isset($_GET['afficher'])) {
         echo "Erreur de la requête : " . $db->errorInfo()[2];
     }
 }
+ 
+
+
+ 
 include '../includes/section.php';
 
 include '../includes/footer.php';

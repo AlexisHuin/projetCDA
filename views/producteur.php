@@ -33,7 +33,8 @@ if (isset($_GET['afficher'])) {
             echo "<li> Téléphone : " . $row['TPRODU'] . "</li>";
             echo "<li> Email: " . $row['MPRODU'] . "</li>";
             echo "<li> Adresse postale : " . $row['APOPRO'] . "</li>";
-            echo "<li> Coordonées GPS : " . $row['CGPPRO'] . "</li> </div> <br>";
+            echo "<li> Coordonées GPS : " . $row['CGPPRO'] . "</li><br>";
+            echo "<li><form action='' method='POST'> <input type='submit' class='upload_submit' name='modifier' value='Modifier' </form>  </li> </div> <br>  </li> </div> <br>";
         }
         echo "</ul>";
     } else {
