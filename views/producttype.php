@@ -27,7 +27,8 @@ if (isset($_GET['afficher'])) {
          // Si la requête s'exécute avec succès, afficher la liste des types de produits
         echo '<ul class="result">';
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo '<div class="result_item"> <li>' . $row['DTYPRO'] . "</li> </div> <br>";
+            echo '<div class="result_item"> <li> Type de produit : </li> <br>';
+        echo '<li>' . $row['DTYPRO'] . "</li> </div> <br>";
         
         }
         echo "</ul>";
