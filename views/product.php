@@ -1,8 +1,8 @@
 <?php
-require_once "./root/pdo.php";
+require_once "../root/pdo.php";
 
-include './includes/header.php';
-include './includes/banner.php';
+include '../includes/header.php';
+include '../includes/banner.php';
 
 
 $titreArticle = "Afficher les produits";
@@ -25,10 +25,11 @@ if (isset($_GET['afficher'])) {
 
     if ($stmt) {
          // Si la requête s'exécute avec succès, afficher la liste des types de produits
-        echo "<ul>";
+        echo '<ul class="result">';
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo "<li> Nom : " . $row['DPRODU'] . "</li>";
-        echo "<li> Prix :  " . $row['PUVEN'] . "  </li> <br>";
+        echo '<div class="result_item"> <li> Produit : </li> <br>';
+        echo '<li> Nom : ' . $row['DPRODU'] . "</li>";
+        echo "<li> Prix :  " . $row['PUVEN'] . "  </li> </div> <br>";
         
         }
         echo "</ul>";
@@ -37,6 +38,6 @@ if (isset($_GET['afficher'])) {
         echo "Erreur de la requête : " . $db->errorInfo()[2];
     }
 }
+include '../includes/section.php';
 
-include './includes/section.php';
-include './includes/footer.php';
+include '../includes/footer.php';

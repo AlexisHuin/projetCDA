@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./assets/css/stylesheet.css">
 <?php
 // Liste des objets que je passe avec mes includes
 $titreArticle = "Légume en vedette";
@@ -17,6 +18,7 @@ plongez dans la magie des tomates et faites de chaque plat une expérience gastr
 
 
 include './includes/header.php';
+
 include './includes/banner.php';
 include './includes/section.php';
 include './includes/footer.php';

@@ -13,8 +13,8 @@ $contenuArticle = '<ul>
 
 
 <?php
-include './includes/header.php';
-include './includes/banner.php';
-include './includes/section.php';
-include './includes/footer.php';
+include '../includes/header.php';
+include '../includes/banner.php';
+include '../includes/section.php';
+include '../includes/footer.php';
 ?>

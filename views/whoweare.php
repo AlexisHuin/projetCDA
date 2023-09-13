@@ -21,10 +21,10 @@ Que vous soyez un passionné de l'agriculture, un amateur de produits frais ou q
 
 Découvrez notre histoire, rencontrez nos agriculteurs et explorez notre gamme de produits délicieux. Rejoignez-nous dans notre quête pour une alimentation meilleure, plus verte et plus savoureuse." ;
 
-include './includes/header.php';
-include './includes/banner.php';
-include './includes/section.php';
-include './includes/footer.php';
+include '../includes/header.php';
+include '../includes/banner.php';
+include '../includes/section.php';
+include '../includes/footer.php';
 
 ?>
 

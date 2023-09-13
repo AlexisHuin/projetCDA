@@ -1,6 +1,6 @@
 <?php 
 // je lie mon fichier PDO ( Connexion a la BDD)
-require_once "./root/pdo.php";
+require_once "../root/pdo.php";
 
 // je récupére les données envoyer depuis ma page de formulaire
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

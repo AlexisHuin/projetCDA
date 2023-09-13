@@ -1,8 +1,8 @@
 <?php
-require_once "./root/pdo.php";
+require_once "../root/pdo.php";
 
-include './includes/header.php';
-include './includes/banner.php';
+include '../includes/header.php';
+include '../includes/banner.php';
 
 
 $titreArticle = "Afficher type de produit";
@@ -25,9 +25,9 @@ if (isset($_GET['afficher'])) {
 
     if ($stmt) {
          // Si la requête s'exécute avec succès, afficher la liste des types de produits
-        echo "<ul>";
+        echo '<ul class="result">';
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo "<li>" . $row['DTYPRO'] . "</li> <br>";
+        echo '<div class="result_item"> <li>' . $row['DTYPRO'] . "</li> </div> <br>";
         
         }
         echo "</ul>";
@@ -37,5 +37,5 @@ if (isset($_GET['afficher'])) {
     }
 }
 
-include './includes/section.php';
-include './includes/footer.php';
+include '../includes/section.php';
+include '../includes/footer.php';
