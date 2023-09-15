@@ -5,10 +5,10 @@ include './includes/header.php';
 include './includes/banner.php';
 
 
-$titreArticle = "Afficher type de produitst";
+$titreArticle = "Afficher type de produits";
 
 
-
+include './includes/section.php';
 
 
 $sql = "SELECT * FROM type_de_produit";
@@ -23,10 +23,10 @@ $types= $query->fetchAll(); ?>
     
 
     <button>
-        <a href="update.php?id=<?=$type["ITYPRO"]?>"> Modifier</a>
+        <a href="updateProductType.php?id=<?=$type["ITYPRO"]?>"> Modifier</a>
     </button>
     <button>
-        <a href="delete.php?id=<?=$type["ITYPRO"]?>"> Supprimer</a>
+        <a href="deleteProductType.php?id=<?=$type["ITYPRO"]?>"> Supprimer</a>
     </button>
     </div>
 
@@ -35,6 +35,6 @@ $types= $query->fetchAll(); ?>
 
  
 
+<?php 
 
-include './includes/section.php';
 include './includes/footer.php';

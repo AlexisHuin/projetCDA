@@ -26,10 +26,10 @@ $produits = $query->fetchAll(); ?>
     
 
     <button>
-        <a href="update.php?id=<?=$produit["IPRODDU"]?>"> Modifier</a>
+        <a href="updateProduct.php?id=<?=$produit["IPRODDU"]?>"> Modifier</a>
     </button>
     <button>
-        <a href="delete.php?id=<?=$produit["IPRODDU"]?>"> Supprimer</a>
+        <a href="deleteProduct.php?id=<?=$produit["IPRODDU"]?>"> Supprimer</a>
     </button>
     </div>
 

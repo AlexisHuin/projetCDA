@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-<script src="../app.js"></script>
+
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="container">
     <header>
         <div class="logo"><a class="accueil_a" href="/Testing/ProjetCDARentree/"><img src="./assets/img/logo.png" alt="logo coopérative"><p class="accueil">Accueil</p></a>
      </div>

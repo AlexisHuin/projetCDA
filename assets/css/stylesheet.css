@@ -2,7 +2,12 @@
   padding: auto;
   margin: auto;
 }
-
+body {
+  
+}
+.container {
+  height: 80%;
+}
 .logo {
   flex: 1;
 }
@@ -127,9 +132,9 @@ form {
 }
 
 footer {
-  position: fixed;
+  height: 20%;
   bottom: 0;
-  width: 100%;
+  width: 70%;
   padding: 1em 0 1em 0;
   border-top: 1px solid black;
   display: flex;

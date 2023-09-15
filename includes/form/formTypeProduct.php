@@ -1,5 +1,5 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST" >
-    <label class="search" for="nom">Ajouter un type de produitst</label>
+    <label class="search" for="nom">Ajouter un type de produits</label>
     <input class="search" type="text" id="nom" name="nom" required>
 
     <input class="search_input" type="submit" name="submit" value="Envoyer">
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //si il ne sont pas vide je lance ma requete SQL d'injection vers la table "contact" de ma BDD tabledetest
     try {
        
-        $query = "INSERT INTO type_de_produitst (DTYPRO) VALUES (:nom)";
+        $query = "INSERT INTO type_de_produit (DTYPRO) VALUES (:nom)";
 
        
         $stmt = $db->prepare($query);

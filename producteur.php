@@ -30,10 +30,10 @@ $producteurs = $query->fetchAll(); ?>
     
 
     <button>
-        <a href="update.php?id=<?=$producteur["IPRODU"]?>"> Modifier</a>
+        <a href="updateProductor.php?id=<?=$producteur["IPRODU"]?>"> Modifier</a>
     </button>
     <button>
-        <a href="delete.php?id=<?=$producteur["IPRODU"]?>"> Supprimer</a>
+        <a href="deleteProductor.php?id=<?=$producteur["IPRODU"]?>"> Supprimer</a>
     </button>
     </div>
 

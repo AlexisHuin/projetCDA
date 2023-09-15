@@ -2,7 +2,7 @@
 <div class="ban">
         <div class="ban_content">
             <h1>Coopérative Consommateur</h1>
-            <a  class="nav_lien" href="/Testing/ProjetCDARentree/views/whoweare.php">Qui sommes-nous ?</a>
+            <a  class="nav_lien" href="/Testing/ProjetCDARentree/whoweare.php">Qui sommes-nous ?</a>
         </div>
 
         <!-- Je dois définir la page de traitement pour ma recherche, et bien sur la requete -->
