@@ -7,7 +7,7 @@
 </form>
 
 <?php
-require_once "../root/pdo.php";
+require_once "./root/pdo.php";
 
 // je récupére les données envoyer depuis ma page de formulaire
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //si il ne sont pas vide je lance ma requete SQL d'injection vers la table "contact" de ma BDD tabledetest
     try {
 
-        $query = "INSERT INTO produi (DPRODU, PUVEN) VALUES (:nom , :prix)";
+        $query = "INSERT INTO produits (DPRODU, PUVEN) VALUES (:nom , :prix)";
 
 
         $stmt = $db->prepare($query);

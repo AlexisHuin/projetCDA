@@ -1,12 +1,12 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST" >
-    <label class="search" for="nom">Ajouter un type de produit</label>
+    <label class="search" for="nom">Ajouter un type de produitst</label>
     <input class="search" type="text" id="nom" name="nom" required>
 
     <input class="search_input" type="submit" name="submit" value="Envoyer">
 </form>
 
 <?php
-require_once "../root/pdo.php";
+require_once "./root/pdo.php";
 
 // je récupére les données envoyer depuis ma page de formulaire
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //si il ne sont pas vide je lance ma requete SQL d'injection vers la table "contact" de ma BDD tabledetest
     try {
        
-        $query = "INSERT INTO type_de_produit (DTYPRO) VALUES (:nom)";
+        $query = "INSERT INTO type_de_produitst (DTYPRO) VALUES (:nom)";
 
        
         $stmt = $db->prepare($query);

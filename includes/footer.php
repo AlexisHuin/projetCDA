@@ -1,4 +1,4 @@
-   
+</section>
     <footer>
         <p>Copyright</p>
         <p>Mentions légales</p>

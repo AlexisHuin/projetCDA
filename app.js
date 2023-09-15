@@ -33,11 +33,7 @@ function addFormUpload() {
 
     target.appendChild(form);
 
-    // Soumettez le formulaire lorsque le bouton est cliqué
-    form.addEventListener("submit", (event) => {
-      event.preventDefault(); // Empêche la soumission normale du formulaire
-      //     // Vous pouvez ajouter ici la logique pour traiter les données du formulaire
-      console.log("Formulaire soumis !");
-    });
+    
+    
   });
 }

@@ -1,9 +1,9 @@
-<section>
-    <div id="article "class="article">
-        <h2 class="article_title"><?php echo $titreArticle ?></h2>
-        
-        
-        <?php echo $contenuArticle ?>
-    </div>
 
-</section>
+<section id="article "class="article">
+        <h1 class="article_title"><?php echo $titreArticle ?></h2>
+        
+        
+   
+   
+
+

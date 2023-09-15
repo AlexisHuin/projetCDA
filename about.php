@@ -1,4 +1,5 @@
 <?php 
+$titre="A propos";
 $titreArticle = "Comment nous rejoindre ?";
 $contenuArticle = 'Rejoindre notre association est simple et gratifiant ! Nous accueillons chaleureusement tous ceux qui partagent notre passion et
  notre mission. Pour devenir membre, suivez ces étapes faciles :
@@ -18,9 +19,9 @@ $contenuArticle = 'Rejoindre notre association est simple et gratifiant ! Nous a
 
 
 
-include '../includes/header.php';
-include '../includes/banner.php';
-include '../includes/section.php';
-include '../includes/footer.php';
+include './includes/header.php';
+include './includes/banner.php';
+include './includes/section.php';
+include './includes/footer.php';
 
 ?>
